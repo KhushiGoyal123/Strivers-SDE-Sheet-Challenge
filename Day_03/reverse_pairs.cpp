@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include<vector>
 int merge(vector<int> &arr, int low, int mid, int high)
 {
     int count = 0, cnt = 0, temp[high - low + 1];
