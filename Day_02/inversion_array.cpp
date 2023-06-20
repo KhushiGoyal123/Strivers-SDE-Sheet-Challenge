@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include<vector>
 long long merge(long long *arr, int low, int mid, int high)
 {
     int left = low;
